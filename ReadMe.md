@@ -2,7 +2,8 @@
 
 **使用流程：**
 
-1. 将文件夹`infer-code`复制到工作目录下
+1. 将文件夹`InferEarlobe`复制到工作目录下
+   注意：必须下载v1.0.0 release的3个必需的模型文件压缩包，解压缩后放置于`InferEarlobe\models`文件夹内
 
 2. 环境配置
    
