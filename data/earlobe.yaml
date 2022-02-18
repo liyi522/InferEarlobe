@@ -1,0 +1,18 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# mydata
+# Example usage: python train.py --data earlobe.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: /data/liyi/2021/ear/yolo/yolov5-master/data/train.txt  # train images (relative to 'path') 118287 images
+val: /data/liyi/2021/ear/yolo/yolov5-master/data/val.txt  # train images (relative to 'path') 5000 images
+test: /data/liyi/2021/ear/yolo/yolov5-master/data/test.txt  # 20288 of 40670 images
+
+# Classes
+nc: 1  # number of classes
+names: ['earlobe']  # class names
+
